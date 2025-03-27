@@ -1,3 +1,4 @@
+import java.util.*;
 
 class LargestElement {
 
@@ -14,6 +15,9 @@ class LargestElement {
     public static void main(String[] args
     ){
         int nums[] = new int[]{31,7,8,41,1};
+        HashMap<String, Integer> hm = new HashMap<>();
+        hm.put("Sheet",1);
+
         int max = LargestElement.largestNum(nums);
         System.out.println(" Largest Number = "+max);
     }
